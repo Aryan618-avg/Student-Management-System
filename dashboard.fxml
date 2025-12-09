@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.text.Text?>
+
+<VBox spacing="20" alignment="CENTER" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml" fx:controller="DashboardController">
+    <padding>
+        <Insets top="40" right="40" bottom="40" left="40"/>
+    </padding>
+    <Text style="-fx-font-size:20;">Student Management System</Text>
+    <Button text="Add Student" onAction="#onAddStudent" minWidth="200"/>
+    <Button text="View Students" onAction="#onViewStudents" minWidth="200"/>
+    <Button text="Exit" onAction="#onExit" minWidth="200"/>
+</VBox>

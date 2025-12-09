@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.geometry.Insets?>
+<VBox spacing="10" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="ViewStudentsController">
+    <padding>
+        <Insets top="10" right="10" bottom="10" left="10"/>
+    </padding>
+
+    <TableView fx:id="table" prefHeight="250">
+        <columns>
+            <TableColumn text="ID" fx:id="colId" prefWidth="50"/>
+            <TableColumn text="Name" fx:id="colName" prefWidth="150"/>
+            <TableColumn text="Age" fx:id="colAge" prefWidth="50"/>
+            <TableColumn text="Gender" fx:id="colGender" prefWidth="80"/>
+            <TableColumn text="Course" fx:id="colCourse" prefWidth="120"/>
+            <TableColumn text="Email" fx:id="colEmail" prefWidth="180"/>
+            <TableColumn text="Phone" fx:id="colPhone" prefWidth="110"/>
+        </columns>
+    </TableView>
+
+    <HBox spacing="10">
+        <VBox spacing="5">
+            <Label text="ID:"/>
+            <TextField fx:id="idField" editable="false"/>
+            <Label text="Name:"/>
+            <TextField fx:id="nameField"/>
+            <Label text="Age:"/>
+            <TextField fx:id="ageField"/>
+        </VBox>
+
+        <VBox spacing="5">
+            <Label text="Gender:"/>
+            <ComboBox fx:id="genderBox"/>
+            <Label text="Course:"/>
+            <TextField fx:id="courseField"/>
+            <Label text="Email:"/>
+            <TextField fx:id="emailField"/>
+            <Label text="Phone:"/>
+            <TextField fx:id="phoneField"/>
+        </VBox>
+    </HBox>
+
+    <HBox spacing="10">
+        <Button text="Update" onAction="#onUpdate"/>
+        <Button text="Delete" onAction="#onDelete"/>
+        <Button text="Back" onAction="#onBack"/>
+    </HBox>
+
+    <Label fx:id="statusLabel"/>
+</VBox>

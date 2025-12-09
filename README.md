@@ -80,6 +80,7 @@ Main
 ## 🎯 Screenshots  
 <img width="1919" height="1007" alt="image" src="https://github.com/user-attachments/assets/103d03b1-8aa7-49b7-895b-3975f1be410e" />  
 <img width="1919" height="1003" alt="image" src="https://github.com/user-attachments/assets/d1a0660b-fc20-406f-bc04-df6e47ec59ad" />  
+<img width="1900" height="890" alt="image" src="https://github.com/user-attachments/assets/67f2b007-d7f4-428f-b965-0064665473ee" />  
 
 ## ✨ Future Enhancements  
 - Edit student details  
